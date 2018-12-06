@@ -1,4 +1,6 @@
 #Basic machine learning
+#Finding similarities using euclidean distance
+
 import math
 import random
 
@@ -27,7 +29,8 @@ def sim(dt,x,fn=euclideanDist):
 
 
 dict={}
-
+#Here input is (a,b)
+#if a is btween 50 and 100 and b is between 1 and 75, its of type A and so on
 for i in range(100):
     
     dict[(random.choice(range(50,101)),random.choice(range(1,76)))]="Type A"
