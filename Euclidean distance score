@@ -3,3 +3,4 @@ So, if we have a set of points and we have to find if a given point is similar t
 Its a very simple and intuitive implement and works well for small dataset with about 95-97 percent accuracy
 The main disadvantage observed was that  we have to iterate through the whole dataset finding the minimum distance
 Therefore its not practical for large dataset as it offers a time complexity 'n', 'n' being the size of the dataset
+NOTE: This method can only be used for specific types of learning and programs and not all
