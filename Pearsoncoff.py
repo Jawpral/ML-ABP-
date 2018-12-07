@@ -49,4 +49,14 @@ def pearsonCoff(a,b):
 for i in dict.keys():
     print(i+": "+str(pearsonCoff(dict[i],test["X"])))
 
-    
+#OUTPUT 
+'''
+Anna: 0.8339691214334588
+Raj: 0.48850421045919756
+Bhuvan: -0.033364240464065296
+Aditya: -0.18130481180958793
+Gaurav: -0.41054886256129064
+Ishan: -0.6285527866495546
+Harsha: 0.5072258253945515
+Nikhil: 0.18375590811245637
+Somedude: -0.09574603534846943'''
