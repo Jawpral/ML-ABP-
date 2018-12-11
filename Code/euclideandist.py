@@ -5,6 +5,7 @@
 #Type B: If a belongs to (120,200) and b belongs to (80,100)
 #Type C: If a belongs to (250,300) and b belongs to (120,180)
 
+
 import math
 import random
 
