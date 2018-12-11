@@ -12,15 +12,14 @@ Here our brain tells us that there are four clusters, or three groups, and its s
 This is a type of unsupervised learning, where we write an algorithm for the program to identify clusters. The program doesnt know how many clusters are there, and will classify the given data into a respective cluster
 
 ##### Basic Algorithm
-1)Consider each element as a cluster
-2)Find two clusters which are the closest
-3)Merge the clusters found in step 2
-4)Repeat Step 2 and 3 until there is only one cluster left
+1. Consider each element as a cluster
+2. Find two clusters which are the closest
+3. Merge the clusters found in step 2
+4. Repeat Step 2 and 3 until there is only one cluster left
 
-*Note*: There are 4 ways to find the distance between two clusters:
-      1]Single linkage: Distance between the closet elements in both the clusters
-      2]Complete linkage: Distance between the farthest elements in both the clusters
-      3]Average linkage: Average distance of all the points in the two clusters
-      4]Centroid linkage: Distance between the centroid of the two clusters
-
+**Note**: There are 4 ways to find the distance between two clusters:
+  1. Single linkage: Distance between the closet elements in both the clusters
+  2. Complete linkage: Distance between the farthest elements in both the clusters
+  3. Average linkage: Average distance of all the points in the two clusters
+  4. Centroid linkage: Distance between the centroid of the two cluster
 
