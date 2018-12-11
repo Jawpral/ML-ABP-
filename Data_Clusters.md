@@ -10,7 +10,8 @@ Here our brain tells us that there are four clusters, or three groups, and its s
 ### Heirarchial clustering
 
 This is a type of unsupervised learning, where we write an algorithm for the program to identify clusters. The program doesnt know how many clusters are there, and will classify the given data into a respective cluster
-#Basic Algorithm
+
+##### Basic Algorithm
 1)Consider each element as a cluster
 2)Find two clusters which are the closest
 3)Merge the clusters found in step 2
